@@ -34,12 +34,7 @@ export default class    extends Component {
         const  showThumb = true;
 
         return (
-            <View style={{width: Metrics.screenWidth, height: Metrics.screenHeight * 0.5, backgroundColor: 'black'}}>              
-              <Image
-                style={{width: Metrics.screenWidth, height: Metrics.screenHeight * 0.5, opacity: 0.5}}
-                resizeMode={'stretch'}
-                source={Images.store2} >                  
-              </Image>  
+            <View style={{width: Metrics.screenWidth, height: Metrics.screenHeight * 0.5, backgroundColor: 'transparent'}}>              
               <View
                 style={{width: Metrics.screenWidth, height: Metrics.screenHeight * 0.5, position:'absolute', right: 0, left:0, bottom: 0, top: 0}}
                 resizeMode={'stretch'}>
